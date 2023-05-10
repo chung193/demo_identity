@@ -21,6 +21,7 @@ namespace DemoIdentity
         {
             common.Data.initDataFile();
             common.Data.createTable();
+            common.Data.initDataDemo();
         }
     }
 }
