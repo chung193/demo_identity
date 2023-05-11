@@ -19,9 +19,42 @@ namespace DemoIdentity
 
         private void Login_Load(object sender, EventArgs e)
         {
-            common.Data.initDataFile();
-            common.Data.createTable();
-            common.Data.initDataDemo();
+            if (!helper.Helper.checkFileExits("demo.sqlite"))
+            {
+                common.Data.initDataFile();
+                common.Data.createTable();
+                common.Data.initDataDemo();
+                common.Data.initPermission();
+            }
         }
+
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtPw.Text != "" && txtUsername.Text != "")
+            {
+                string sql = "SELECT tbl_users.*, tbl_groups.name as groupName FROM tbl_users JOIN tbl_groups ON tbl_users.group_id = tbl_groups.id  WHERE tbl_users.name = '" + txtUsername.Text + "' AND password = '" + txtPw.Text + "'";
+                DataSet ds = new DataSet();
+                ds = common.Data.loadData(sql);
+                if (ds.Tables[0].Rows.Count == 1)
+                {
+                    MessageBox.Show("login success");
+                    Form frmMain = new app.Main();
+
+                    DataRow[] dr = ds.Tables[0].Select("name = '" + txtUsername.Text +"' and password = '"+ txtPw.Text+"'");
+                    common.Identity.name = dr[0].ItemArray[1].ToString();
+                    common.Identity.password = dr[0].ItemArray[2].ToString();
+                    common.Identity.group_id = int.Parse(dr[0].ItemArray[3].ToString());
+                    common.Identity.group_name = dr[0].ItemArray[4].ToString();
+
+                    frmMain.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("username or password incorrect");
+                }
+            }
+        }
+
     }
 }

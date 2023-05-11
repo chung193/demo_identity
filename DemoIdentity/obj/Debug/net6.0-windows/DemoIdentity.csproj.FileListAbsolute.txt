@@ -33,3 +33,5 @@ C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\bin\Debug\net6.0-windo
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.csproj.CopyComplete
+C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.app.featureA.FrmA.resources
+C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.app.featureB.FrmB.resources

@@ -16,5 +16,24 @@ namespace DemoIdentity.app
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void MyMethod()
+        {
+            Console.WriteLine("I just got executed!");
+        }
+        public void sayHello(string fname)
+        {
+            Console.WriteLine("Hello " + fname);
+        }
     }
 }

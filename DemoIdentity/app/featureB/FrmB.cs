@@ -8,22 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DemoIdentity.app
+namespace DemoIdentity.app.featureB
 {
-    public partial class Main : Form
+    public partial class FrmB : Form
     {
-        public Main()
+        public FrmB()
         {
             InitializeComponent();
         }
 
-        private void Main_Load(object sender, EventArgs e)
-        {
-            lbUser.Text = "Hello, " + common.Identity.name;
-            lbGroup.Text = "User group: " + common.Identity.group_name;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
@@ -35,11 +29,6 @@ namespace DemoIdentity.app
         public void sayHello(string fname)
         {
             Console.WriteLine("Hello " + fname);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

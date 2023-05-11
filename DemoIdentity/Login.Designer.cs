@@ -35,37 +35,41 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(172, 119);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLogin.Location = new System.Drawing.Point(195, 164);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(82, 22);
+            this.btnLogin.Size = new System.Drawing.Size(94, 29);
             this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(38, 31);
+            this.txtUsername.Location = new System.Drawing.Point(43, 41);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(216, 23);
+            this.txtUsername.Size = new System.Drawing.Size(246, 27);
             this.txtUsername.TabIndex = 1;
+            this.txtUsername.Text = "chung";
             // 
             // txtPw
             // 
-            this.txtPw.Location = new System.Drawing.Point(38, 74);
+            this.txtPw.Location = new System.Drawing.Point(43, 99);
+            this.txtPw.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPw.Name = "txtPw";
-            this.txtPw.Size = new System.Drawing.Size(216, 23);
+            this.txtPw.PasswordChar = '*';
+            this.txtPw.Size = new System.Drawing.Size(246, 27);
             this.txtPw.TabIndex = 2;
+            this.txtPw.Text = "123123";
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 171);
+            this.ClientSize = new System.Drawing.Size(345, 228);
             this.Controls.Add(this.txtPw);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.btnLogin);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.Data;
+using System.Text.Json.Nodes;
 
 namespace DemoIdentity.common
 {
@@ -18,7 +19,7 @@ namespace DemoIdentity.common
 
         public static string demoGroup = "Insert into tbl_groups (name) values ('admin');Insert into tbl_groups (name) values ('guest')";
         public static string demoUser = "Insert into tbl_users (name, password, group_id) values ('chung', '123123', 1);Insert into tbl_users (name, password, group_id) values ('thuy', '123123', 2)";
-        //public static string demoPermission = "Insert into tbl_users (name, password, group_id) values ('chung', '123123', 1);Insert into tbl_users (name, password, group_id) values ('thuy', '123123', 2)";
+
         public static void initDataFile()
         {
             SQLiteConnection.CreateFile("demo.sqlite");
@@ -49,6 +50,20 @@ namespace DemoIdentity.common
             command.ExecuteNonQuery();
             command = new SQLiteCommand(demoUser, _con);
             command.ExecuteNonQuery();
+            closeConnection();
+        }
+
+        public static void initPermission()
+        {
+            string[] permission = common.Identity.initPermission();
+            string demo1 = String.Format("INSERT INTO tbl_permissions(group_id, json) VALUES(1, {0})", permission[0]);
+            string demo2 = String.Format("INSERT INTO tbl_permissions(group_id, json) VALUES(1, {0})",permission[1]);
+
+            createConection();
+            SQLiteCommand cmd = new SQLiteCommand(demo1, _con);
+            cmd.ExecuteNonQuery();
+            cmd = new SQLiteCommand(demo2, _con);
+            cmd.ExecuteNonQuery();
             closeConnection();
         }
 
