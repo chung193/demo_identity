@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Void",
+    "Main_Load(System.Object",
+    "System.EventArgs)",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "button1_Click(System.Object",
+    "System.EventArgs)",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "MyMethod()",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "sayHello(System.String)",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "button2_Click(System.Object",
+    "System.EventArgs)",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "Dispose(Boolean)",
+    "value": 0
+  },
+  {
+    "name": "Void",
+    "InitializeComponent()",
+    "value": 0
+  }
+]"},{"name":"DemoIdentity.app.Permission", "members":"[{"name": Void button1_Click(System.Object, System.EventArgs), "value": 0},{"name": Void button2_Click(System.Object, System.EventArgs), "value": 0},{"name": Void MyMethod(), "value": 0},{"name": Void sayHello(System.String), "value": 0},{"name": Void Permission_Load(System.Object, System.EventArgs), "value": 0},{"name": Void loadTreeView(), "value": 0},{"name": Void Dispose(Boolean), "value": 0},{"name": Void InitializeComponent(), "value": 0},]"},{"name":"DemoIdentity.app.Sub", "members":"[{"name": Void button1_Click(System.Object, System.EventArgs), "value": 0},{"name": Void button2_Click(System.Object, System.EventArgs), "value": 0},{"name": Void MyMethod(), "value": 0},{"name": Void sayHello(System.String), "value": 0},{"name": Void Dispose(Boolean), "value": 0},{"name": Void InitializeComponent(), "value": 0},]"},{"name":"DemoIdentity.app.featureB.FrmB", "members":"[{"name": Void button2_Click(System.Object, System.EventArgs), "value": 0},{"name": Void MyMethod(), "value": 0},{"name": Void sayHello(System.String), "value": 0},{"name": Void Dispose(Boolean), "value": 0},{"name": Void InitializeComponent(), "value": 0},]"},{"name":"DemoIdentity.app.featureA.FrmA", "members":"[{"name": Void button1_Click(System.Object, System.EventArgs), "value": 0},{"name": Void MyMethod(), "value": 0},{"name": Void sayHello(System.String), "value": 0},{"name": Void Dispose(Boolean), "value": 0},{"name": Void InitializeComponent(), "value": 0},]"}'

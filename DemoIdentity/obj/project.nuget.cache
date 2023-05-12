@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j/TThta/I1Ei8YujaAfVLBpG996zJn/flhR2aELtx0P8X+5LHzrOieHH/8qQ/IndZmlqRsNQ9jNuiUw5lRW7gQ==",
+  "dgSpecHash": "DZrrZjp1DQt8qRIPQ+RpMbak/7s5rE7ANMTXyPHTpXFWOYuUWIirmkCXJ9UaFtNAVMPPhxxomfWoGTbwQSnEbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\chung6960\\source\\repos\\DemoIdentity\\DemoIdentity\\DemoIdentity.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\chung6960\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\chung6960\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\chung6960\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\chung6960\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\chung6960\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\chung6960\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\chung6960\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

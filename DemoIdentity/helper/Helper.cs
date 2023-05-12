@@ -1,8 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Microsoft.VisualBasic;
+using DemoIdentity.common;
 
 namespace DemoIdentity.helper
 {
@@ -21,5 +25,14 @@ namespace DemoIdentity.helper
         {
             return System.IO.Directory.GetDirectories(path, "*", System.IO.SearchOption.AllDirectories);
         }
-    }
+        
+
+        public static List<Struct> StringToObj(string jsonStr)
+        {
+            List<Struct> x = JsonConvert.DeserializeObject<List<Struct>>(jsonStr);
+            return x;
+        } 
+
 }
+}
+

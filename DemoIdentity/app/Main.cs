@@ -25,7 +25,8 @@ namespace DemoIdentity.app
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Permission frm = new Permission();
+            frm.ShowDialog();
         }
 
         protected void MyMethod()

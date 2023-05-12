@@ -35,3 +35,4 @@ C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\bin\Debug\net6.0-windo
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.csproj.CopyComplete
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.app.featureA.FrmA.resources
 C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\obj\Debug\net6.0-windows\DemoIdentity.app.featureB.FrmB.resources
+C:\Users\chung6960\source\repos\DemoIdentity\DemoIdentity\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

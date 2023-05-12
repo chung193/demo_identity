@@ -57,7 +57,7 @@ namespace DemoIdentity.common
         {
             string[] permission = common.Identity.initPermission();
             string demo1 = String.Format("INSERT INTO tbl_permissions(group_id, json) VALUES(1, {0})", permission[0]);
-            string demo2 = String.Format("INSERT INTO tbl_permissions(group_id, json) VALUES(1, {0})",permission[1]);
+            string demo2 = String.Format("INSERT INTO tbl_permissions(group_id, json) VALUES(2, {0})",permission[1]);
 
             createConection();
             SQLiteCommand cmd = new SQLiteCommand(demo1, _con);
